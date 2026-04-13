@@ -12,7 +12,7 @@ function Header() {
   const intro = "At rBuilder, we understand that a great career starts with a great resume. Our mission is to simplify the resume creation process for students, job seekers, and professionals by providing an intuitive and user-friendly tool that helps you craft personalized, visually appealing, and ATS-friendly resumes — without the need for design or formatting skills." 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{backgroundColor:"green"}}>
+      <AppBar position="static" sx={{backgroundColor:"#5e412b"}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -22,7 +22,7 @@ function Header() {
             sx={{ mr: 2 }}
           >
             {/* icon */}
-            <img width={'40px'} src="" alt="Icon" />
+            <img width={'40px'} src="https://cdn-icons-png.freepik.com/512/5126/5126786.png" alt="Icon" />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to={'/'} className='text-light text-decoration-none'>RBuilder</Link>
