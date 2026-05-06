@@ -18,9 +18,9 @@ axiosInstance.interceptors.response.use(
             const status = error.response.status
             if(status == 401){
                 console.log("Unauthorized Access...Redirect to Login...");
-            }else if(staus == 404){
+            }else if(status == 404){
                 console.log("API not Found!!");
-            }else if(staus == 500){
+            }else if(status == 500){
                 console.log("Server Error!!");
             }else if(error.request){
                 console.log("No response from Server!!");
